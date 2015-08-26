@@ -52,4 +52,16 @@
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
+    <webLinks>
+        <fullName>Add_Competitor</fullName>
+        <availability>online</availability>
+        <description>Detail Button to add competitors</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Add Competitor</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/a01/e?CF00N1a000005Q6Jp={!Opportunity.Name}&amp;CF00N1a000005Q6Jp_lkid={!Opportunity.Id}&amp;saveURL=%2F{!Opportunity.Id}&amp;retURL=%2F{!Opportunity.Id}</url>
+    </webLinks>
 </CustomObject>
