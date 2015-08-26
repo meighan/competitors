@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Competitors</fullName>
-    <description>Use:  Track competitors in Salesfore
-How: A custom competitors object w/ a junction object to opps allows for multiple competitors per opp.  Visual force pages give access to competitor data without leaving the page, and information is collected from users about competitors for the competitive analysis team for each opp.  Win/Loss tracking, Selling Tips, and Advantages/Disadvantages for each competitor</description>
     <types>
         <members>CompetitorDetailsPage</members>
         <members>CompetitorNewsFromGoogle</members>
@@ -11,53 +8,13 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <name>ApexPage</name>
     </types>
     <types>
-        <members>Competitor2Opportunity__c.O2C_Compact_Layout</members>
-        <name>CompactLayout</name>
-    </types>
-    <types>
-        <members>Competitor2Opportunity__c.Additional_Details__c</members>
-        <members>Competitor2Opportunity__c.Competitor_Disqualified__c</members>
-        <members>Competitor2Opportunity__c.Competitor_Weaknesses__c</members>
-        <members>Competitor2Opportunity__c.Competitor__c</members>
-        <members>Competitor2Opportunity__c.Disqualified__c</members>
-        <members>Competitor2Opportunity__c.Lost_Details__c</members>
-        <members>Competitor2Opportunity__c.Opportunity_Stage__c</members>
-        <members>Competitor2Opportunity__c.Opportunity__c</members>
-        <members>Competitor2Opportunity__c.Our_Advantages__c</members>
-        <members>Competitor2Opportunity__c.Our_Weaknesses__c</members>
-        <members>Competitor2Opportunity__c.PowerOfOne__c</members>
-        <members>Competitor2Opportunity__c.Won__c</members>
-        <members>Competitor__c.Address__c</members>
-        <members>Competitor__c.CEO__c</members>
-        <members>Competitor__c.Competitor_Advantages__c</members>
-        <members>Competitor__c.Competitor_Logo__c</members>
-        <members>Competitor__c.Customer_Rating__c</members>
-        <members>Competitor__c.Customers__c</members>
-        <members>Competitor__c.Data_Status__c</members>
-        <members>Competitor__c.Evaluation_Criteria__c</members>
-        <members>Competitor__c.Financial_Health__c</members>
-        <members>Competitor__c.Information_Status__c</members>
-        <members>Competitor__c.Last_Update__c</members>
-        <members>Competitor__c.Number_of_Opps_We_Competed_Against_Them__c</members>
-        <members>Competitor__c.Our_Advantages__c</members>
-        <members>Competitor__c.Percent_of_Marketshare__c</members>
-        <members>Competitor__c.Positioning__c</members>
-        <members>Competitor__c.Selling_Tips__c</members>
-        <members>Competitor__c.Source_of_Customer_Rating__c</members>
-        <members>Competitor__c.Target_Market__c</members>
-        <members>Competitor__c.Their_Pricing__c</members>
-        <members>Competitor__c.Ticker_Symbol__c</members>
-        <members>Competitor__c.Type__c</members>
-        <members>Competitor__c.Who_they_are_better_for__c</members>
-        <members>Competitor__c.Year_Founded__c</members>
-        <members>Opportunity.Reason_Lost_Details__c</members>
-        <members>Opportunity.Reason_Lost__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
         <members>Competitor2Opportunity__c</members>
         <members>Competitor__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomPageWebLink</name>
     </types>
     <types>
         <members>Competitor__c</members>
@@ -65,9 +22,7 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
     </types>
     <types>
         <members>Competitor_Images</members>
-        <members>Competitor_Images/CompetitorPageLayout.png</members>
-        <members>Competitor_Images/Competitors_Icon.png</members>
-        <members>Competitor_Images/Opportunity_Competitor_Page_Layout.png</members>
+        <members>Competitor_Images/target_icon.png</members>
         <members>Image_Formula</members>
         <members>Image_Formula/Exclamation.png</members>
         <members>Image_Formula/New.png</members>
@@ -80,21 +35,14 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <members>Competitors</members>
         <members>Competitors/Email_Alert_Competitor_Record_Out_of_Date</members>
         <members>Competitors/Email_Alert_Competitor_Record_Update_Past_Due</members>
+        <members>Competitors/Internal_Request_Competitor_Update</members>
         <members>Competitors/Internal_Request_Competitor_Update_Request</members>
         <members>Competitors/Internal_Request_New_Competitor_Request</members>
         <name>EmailTemplate</name>
     </types>
     <types>
-        <members>Competitor2Opportunity__c.ClosedOpp</members>
-        <members>Competitor2Opportunity__c.CompetitorCorpDetails</members>
-        <members>Competitor2Opportunity__c.CompetitorSalesTips</members>
-        <members>Competitor__c.CompetitorCorpDetails</members>
-        <members>Competitor__c.CompetitorSalesTips1</members>
-        <name>FieldSet</name>
-    </types>
-    <types>
         <members>Competitor2Opportunity__c-Admin Competitor2Opp Layout</members>
-        <members>Competitor2Opportunity__c-EU Competitor2Opp Layout</members>
+        <members>Competitor2Opportunity__c-End User Competitor2Opp Layout</members>
         <members>Competitor__c-Competitor Layout</members>
         <name>Layout</name>
     </types>
@@ -103,17 +51,11 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <name>Letterhead</name>
     </types>
     <types>
-        <members>Competitor__c.All</members>
-        <members>Competitor__c.My_Competitors</members>
-        <name>ListView</name>
-    </types>
-    <types>
         <members>Competitor__c.Competitor2Opportunity_New</members>
         <members>Opportunity.Add_Competitor</members>
         <name>QuickAction</name>
     </types>
     <types>
-        <members>Competition</members>
         <members>Competition/Opp_Competitor_Details</members>
         <members>Competition/Opp_Competitor_Sales_Enablement</members>
         <members>Competition/Opportunity_Competitors</members>
@@ -126,37 +68,9 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <name>ReportType</name>
     </types>
     <types>
-        <members>Competitor2Opportunity__c.Opp_Must_be_Lost_for_Competitor_Won</members>
-        <name>ValidationRule</name>
+        <members>Competitor2Opportunity__c</members>
+        <members>Competitor__c</members>
+        <name>Workflow</name>
     </types>
-    <types>
-        <members>Competitor2Opportunity__c.Add_to_Opportunity</members>
-        <members>Competitor__c.Add_to_Opp</members>
-        <members>Competitor__c.Add_to_OppList</members>
-        <members>Competitor__c.Request_Update</members>
-        <members>Opportunity.Add_Competitor</members>
-        <name>WebLink</name>
-    </types>
-    <types>
-        <members>Competitor__c.Competitor_Information_Out_of_Date</members>
-        <members>Competitor__c.Competitor_Out_of_Date_x2</members>
-        <members>Competitor__c.Competitor_Update_Required_in_7</members>
-        <name>WorkflowAlert</name>
-    </types>
-    <types>
-        <members>Competitor__c.Last_Update_Today</members>
-        <members>Competitor__c.Recent_Update_Status</members>
-        <members>Competitor__c.Status_Current</members>
-        <members>Competitor__c.Status_Out_of_Date</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
-        <members>Competitor__c.Competitor - Updated</members>
-        <name>WorkflowRule</name>
-    </types>
-    <types>
-        <members>Competitor__c.Quarterly_Competitor_Update</members>
-        <name>WorkflowTask</name>
-    </types>
-    <version>34.0</version>
+    <version>31.0</version>
 </Package>
