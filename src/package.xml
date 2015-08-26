@@ -115,14 +115,11 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
     <types>
         <members>Competition</members>
         <members>Competition/Opp_Competitor_Details</members>
-        <members>Competition/Opp_Competitor_Sales_Enablement</members>
-        <members>Competition/Opportunity_Competitors</members>
         <name>Report</name>
     </types>
     <types>
         <members>CompetitorsWOpportunities</members>
         <members>Opportunities_with_or_without_Competitors</members>
-        <members>Opportunity_Competitors</members>
         <name>ReportType</name>
     </types>
     <types>
