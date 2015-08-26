@@ -22,8 +22,6 @@
         <field>Competitor2Opportunity__c$Competitor__c.Who_they_are_better_for__c</field>
     </columns>
     <filter>
-        <criteriaItems>
-        </criteriaItems>
         <language>en_US</language>
     </filter>
     <format>Tabular</format>
