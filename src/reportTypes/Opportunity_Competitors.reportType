@@ -221,7 +221,15 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+<<<<<<< Updated upstream
             <displaynameOverride>Opportunity Type</displaynameOverride>
+=======
+            <field>Opportunity__c.Territory2</field>
+            <table>Competitor2Opportunity__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+>>>>>>> Stashed changes
             <field>Opportunity__c.Type</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
@@ -235,6 +243,12 @@
     <sections>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>I Created</displayNameOverride>
+            <field>Opportunity__c.I_Created__c</field>
+            <table>Competitor2Opportunity__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <displayNameOverride>Reason Lost</displayNameOverride>
             <field>Opportunity__c.Reason_Lost__c</field>
             <table>Competitor2Opportunity__c</table>
@@ -243,6 +257,12 @@
             <checkedByDefault>false</checkedByDefault>
             <displayNameOverride>Reason Lost Details</displayNameOverride>
             <field>Opportunity__c.Reason_Lost_Details__c</field>
+            <table>Competitor2Opportunity__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tracking Number</displayNameOverride>
+            <field>Opportunity__c.Tracking_Number__c</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
         <masterLabel>Opportunity: Custom</masterLabel>
