@@ -218,6 +218,7 @@
     </sections>
     <sections>
         <columns>
+        <columns>
             <checkedByDefault>false</checkedByDefault>
             <displayNameOverride>Reason Lost</displayNameOverride>
             <field>Opportunity__c.Reason_Lost__c</field>
