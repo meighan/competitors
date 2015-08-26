@@ -1,0 +1,10 @@
+<apex:page standardController="Competitor2Opportunity__c">
+    <apex:pageBlock mode="maindetail" title="Competitor Sales Tips">
+            <apex:pageBlockTable value="{!Competitor2Opportunity__c}" var="comp">
+               <apex:repeat value="{!$ObjectType.Competitor2Opportunity__c.FieldSets.CompetitorSalesTips}" 
+                    var="field">
+              <apex:column value="{!comp[field]}" />
+              </apex:repeat>
+           </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

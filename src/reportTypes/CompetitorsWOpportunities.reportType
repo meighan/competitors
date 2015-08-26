@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Competitor__c</baseObject>
+    <category>other</category>
+    <deployed>false</deployed>
+    <description>Competitors and Opportunities related to the competitor.</description>
+    <join>
+        <outerJoin>true</outerJoin>
+        <relationship>Competitors__r</relationship>
+    </join>
+    <label>Competitors with or without Opportunities</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Customers__c</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CEO__c</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Competitor_Logo__c</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Competitor_Advantages__c</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Our_Advantages__c</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Selling_Tips__c</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Ticker_Symbol__c</field>
+            <table>Competitor__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Year_Founded__c</field>
+            <table>Competitor__c</table>
+        </columns>
+        <masterLabel>Competitors</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Our_Advantages__c</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>PowerOfOne__c</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Competitor_Disqualified__c</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Won__c</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <masterLabel>Opportunity Competitors</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Opportunity: Amount</displayNameOverride>
+            <field>Opportunity__c.Amount</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Closed</displayNameOverride>
+            <field>Opportunity__c.IsClosed</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Opportunity: Close Date</displayNameOverride>
+            <field>Opportunity__c.CloseDate</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Created By</displayNameOverride>
+            <field>Opportunity__c.CreatedBy</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Created Date</displayNameOverride>
+            <field>Opportunity__c.CreatedDate</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Contract</displayNameOverride>
+            <field>Opportunity__c.Contract</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Description</displayNameOverride>
+            <field>Opportunity__c.Description</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Expected Revenue</displayNameOverride>
+            <field>Opportunity__c.ExpectedRevenue</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Forecast Category</displayNameOverride>
+            <field>Opportunity__c.ForecastCategoryName</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Has Line Item</displayNameOverride>
+            <field>Opportunity__c.HasOpportunityLineItem</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Last Activity</displayNameOverride>
+            <field>Opportunity__c.LastActivityDate</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Last Modified By</displayNameOverride>
+            <field>Opportunity__c.LastModifiedBy</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Last Modified Date</displayNameOverride>
+            <field>Opportunity__c.LastModifiedDate</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Last Stage Change Date</displayNameOverride>
+            <field>Opportunity__c.LastStageChangeDate</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Lead Source</displayNameOverride>
+            <field>Opportunity__c.LeadSource</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Next Step</displayNameOverride>
+            <field>Opportunity__c.NextStep</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Opportunity ID</displayNameOverride>
+            <field>Opportunity__c.Id</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Opportunity Name</displayNameOverride>
+            <field>Opportunity__c.Name</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Opportunity Owner</displayNameOverride>
+            <field>Opportunity__c.Owner</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Price Book</displayNameOverride>
+            <field>Opportunity__c.Pricebook2</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Primary Campaign Source</displayNameOverride>
+            <field>Opportunity__c.Campaign</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Primary Partner Account</displayNameOverride>
+            <field>Opportunity__c.PrimaryPartnerAccount</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Private</displayNameOverride>
+            <field>Opportunity__c.IsPrivate</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Probability (%)</displayNameOverride>
+            <field>Opportunity__c.Probability</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Quantity</displayNameOverride>
+            <field>Opportunity__c.TotalOpportunityQuantity</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Opportunity: Stage</displayNameOverride>
+            <field>Opportunity__c.StageName</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Stage Sort Order</displayNameOverride>
+            <field>Opportunity__c.StageSortOrder</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Tracking Number</displayNameOverride>
+            <field>Opportunity__c.Tracking_Number__c</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Opportunity: Type</displayNameOverride>
+            <field>Opportunity__c.Type</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Opportunity: Won</displayNameOverride>
+            <field>Opportunity__c.IsWon</field>
+            <table>Competitor__c.Competitors__r</table>
+        </columns>
+        <masterLabel>Opportunity</masterLabel>
+    </sections>
+</ReportType>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Competitor2Opportunity__c$Name</field>
+    </columns>
+    <columns>
+        <field>Competitor2Opportunity__c$Competitor__c.Positioning__c</field>
+    </columns>
+    <columns>
+        <field>Competitor2Opportunity__c$Competitor__c.Percent_of_Marketshare__c</field>
+    </columns>
+    <columns>
+        <field>Competitor2Opportunity__c$Competitor__c.Customer_Rating__c</field>
+    </columns>
+    <columns>
+        <field>Competitor2Opportunity__c$Competitor__c.Financial_Health__c</field>
+    </columns>
+    <columns>
+        <field>Competitor2Opportunity__c$Competitor__c.Target_Market__c</field>
+    </columns>
+    <columns>
+        <field>Competitor2Opportunity__c$Competitor__c.Who_they_are_better_for__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Competitor2Opportunity__c$Id</column>
+            <operator>equals</operator>
+            <value>a011a000002Fl4Q</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Opportunity Competitors</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity_Competitors__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Competitor2Opportunity__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

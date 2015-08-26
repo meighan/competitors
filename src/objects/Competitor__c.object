@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object is a central hub to track all they key information about your competitors</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>CompetitorCorpDetails</fullName>
+        <availableFields>
+            <field>Address__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CEO__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Customers__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Last_Update__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Ticker_Symbol__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Year_Founded__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Used in the visual force page reviewing the company details for the competitor</description>
+        <displayedFields>
+            <field>Positioning__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Their_Pricing__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Target_Market__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Percent_of_Marketshare__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Rating__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Financial_Health__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>CompetitorCorpDetails</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>CompetitorSalesTips1</fullName>
+        <availableFields>
+            <field>Competitor_Advantages__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Customer_Rating__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Number_of_Opps_We_Competed_Against_Them__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Who_they_are_better_for__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>used in vf page</description>
+        <displayedFields>
+            <field>Their_Pricing__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Our_Advantages__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Evaluation_Criteria__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Selling_Tips__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>CompetitorSalesTips1</label>
+    </fieldSets>
+    <fields>
+        <fullName>Address__c</fullName>
+        <description>The address of the HQ for the competitor</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The address of the HQ for the competitor</inlineHelpText>
+        <label>Address</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CEO__c</fullName>
+        <description>Name of the CEO</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the CEO</inlineHelpText>
+        <label>CEO</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Competitor_Advantages__c</fullName>
+        <description>The Competitors advantages over our product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Competitors advantages over our product</inlineHelpText>
+        <label>Competitor Advantages</label>
+        <length>5000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Competitor_Logo__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitor Logo</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Rating__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How do their customers rate their product</inlineHelpText>
+        <label>Customer Rating</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Extremely Satisfied</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Satisfied</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Neutral</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unsatisfied</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Extremely Unsatisfied</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Customers__c</fullName>
+        <description>Number of Customers the Competitor has</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of Customers the Competitor has</inlineHelpText>
+        <label># of Customers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Status__c</fullName>
+        <description>The status of the data, based on the Information Status field.  To be used on views and reports</description>
+        <externalId>false</externalId>
+        <formula>IMAGE(
+CASE(Information_Status__c,
+&quot;Recently Updated&quot;,&quot;/servlet/servlet.FileDownload?file=0151a000000Aqlp&quot;,
+&quot;Current&quot;, &quot;/servlet/servlet.FileDownload?file=0151a000000Aqlu&quot;,
+&quot;Update In Progress&quot;, &quot;/servlet/servlet.FileDownload?file=0151a000000AqmE&quot;,
+&quot;Out of Date&quot;, &quot;/servlet/servlet.FileDownload?file=0151a000000Aqm4&quot;,
+&quot;/servlet/servlet.FileDownload?file=0151a000000Aqlz&quot;), &quot;Status&quot;)
+
+/*CASE(Information_Status__c,
+&quot;Recently Updated&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151a000000Aqlz&quot;, &quot;New Update&quot;),
+&quot;Current&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151a000000Aqlu&quot;, &quot;Current&quot;),
+&quot;Update In Progress&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151a000000AqmE&quot;, &quot;Update in Progress&quot;),
+&quot;Out of Date&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151a000000Aqm4&quot;, &quot;Out of Date&quot;), IMAGE(&quot;/servlet/servlet.FileDownload?file=0151a000000Aqlz&quot;, &quot;Unknown&quot;))*/</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Evaluation_Criteria__c</fullName>
+        <description>This reviews the information that customers should keep in mind when evaluating their product.  
+
+Example:  They may have XYZ but they don&apos;t have 24/7 support, they require a 36 month contract, etc</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This reviews the information that customers should keep in mind when evaluating their product.  
+
+Example:  They may have XYZ but they don&apos;t have 24/7 support, they require a 36 month contract, etc</inlineHelpText>
+        <label>Evaluation Criteria</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Financial_Health__c</fullName>
+        <description>How is the competitor doing financially?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How is the competitor doing financially?</inlineHelpText>
+        <label>Financial Health</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fair</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Poor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Information_Status__c</fullName>
+        <description>The current status of the information about the competitor.  
+Recently Updated:  Updated in the last 7 days
+Current: Updated this quarter
+Update in Progress: Self-explanitory
+Out of Date: 1+ Quarter since last review</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The current status of the information about the competitor.  
+
+Recently Updated:  Updated in the last 7 days
+Current: Updated this quarter
+Update in Progress: Self-explanitory
+Out of Date: 1+ Quarter since last review</inlineHelpText>
+        <label>Information Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Recently Updated</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Update In Progress</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Out of Date</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Last_Update__c</fullName>
+        <description>The date the competitor information was last updated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the competitor information was last updated</inlineHelpText>
+        <label>Last Update</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Opps_We_Competed_Against_Them__c</fullName>
+        <description>Rollup Count of how many opps we competed against them in</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Rollup Count of how many opps we competed against them in</inlineHelpText>
+        <label>Number of Opps We Competed Against Them</label>
+        <summaryForeignKey>Competitor2Opportunity__c.Competitor__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Our_Advantages__c</fullName>
+        <description>Our Product or Service Advantages Over the Competitor</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Our Product or Service Advantages Over the Competitor</inlineHelpText>
+        <label>Our Advantages</label>
+        <length>5000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Percent_of_Marketshare__c</fullName>
+        <description>How much of the market they have as customers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How much of the market they have as customers.</inlineHelpText>
+        <label>Percent of Marketshare</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Positioning__c</fullName>
+        <description>Oneliner, detailed overview of who the competitor is/who they position themselves to be.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A clear, concise, detailed overview of who the competitor is/position themselves to be,</inlineHelpText>
+        <label>Positioning</label>
+        <length>500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Selling_Tips__c</fullName>
+        <description>Selling Tips against the Competitor</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Selling Tips against the Competitor</inlineHelpText>
+        <label>Selling Tips</label>
+        <length>32000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Source_of_Customer_Rating__c</fullName>
+        <description>Where we obtained the customer rating data</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Where we obtained the customer rating data</inlineHelpText>
+        <label>Source of Customer Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Target_Market__c</fullName>
+        <description>Who is buying their product? Enterprise Corps, SMB, Consumers, High end, luxury, affordable, etc</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Who is buying their product/the characteristics of their target buyer.  
+
+Example terms:  Enterprise Corps, SMB, Consumers, High end, luxury, affordable, etc</inlineHelpText>
+        <label>Target Market</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Their_Pricing__c</fullName>
+        <description>When comparing their pricing to ours, how do they stand vs us?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When comparing their pricing to ours, how do they stand vs us?</inlineHelpText>
+        <label>Their Pricing</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Much Higher</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Slightly Higher</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>About the Same</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Slightly Lower</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Much Lower</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Ticker_Symbol__c</fullName>
+        <description>Stock Ticker Symbol</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Stock Ticker Symbol</inlineHelpText>
+        <label>Ticker Symbol</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <description>What are we competition against them in? 
+
+Direct Competitors (same product and category) 
+Indirect Competitors (offer the same stuff different category) 
+Replacement Competitors (different product and category)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What are we competition against them in? 
+
+Direct Competitors (same product and category) 
+Indirect Competitors (offer the same stuff different category) 
+Replacement Competitors (different product and category)</inlineHelpText>
+        <label>Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Direct</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Indirect</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Replacement</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Who_they_are_better_for__c</fullName>
+        <description>The market that is better suited with the competitors product than ours</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The market that is better suited with the competitors product than ours</inlineHelpText>
+        <label>Who they are better for</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Year_Founded__c</fullName>
+        <description>The Year the Company was Founded</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Year the Company was Founded</inlineHelpText>
+        <label>Year Founded</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Competitor</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Data_Status__c</columns>
+        <columns>NAME</columns>
+        <columns>Last_Update__c</columns>
+        <columns>Competitor_Advantages__c</columns>
+        <columns>Our_Advantages__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Competitive_Analysis_Team_Competitor</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Competitive Analysis Team</label>
+        <queue>Competitive_Analysis_Team</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Competitors</fullName>
+        <columns>Data_Status__c</columns>
+        <columns>Last_Update__c</columns>
+        <columns>NAME</columns>
+        <columns>Positioning__c</columns>
+        <columns>Their_Pricing__c</columns>
+        <columns>Customer_Rating__c</columns>
+        <columns>Evaluation_Criteria__c</columns>
+        <columns>Our_Advantages__c</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Competitors</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Competitive_Analysis_Team</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <label>Competitor Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Competitors</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Customers__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CEO__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Ticker_Symbol__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Year_Founded__c</customTabListAdditionalFields>
+        <listViewButtons>Add_to_OppList</listViewButtons>
+        <lookupDialogsAdditionalFields>Customers__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Ticker_Symbol__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Year_Founded__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Customers__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Competitor_Logo__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Competitor_Advantages__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Our_Advantages__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Selling_Tips__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LAST_UPDATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OWNER.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Customer_Rating__c</searchFilterFields>
+        <searchFilterFields>Type__c</searchFilterFields>
+        <searchFilterFields>Target_Market__c</searchFilterFields>
+        <searchFilterFields>Their_Pricing__c</searchFilterFields>
+        <searchFilterFields>Last_Update__c</searchFilterFields>
+        <searchResultsAdditionalFields>Customers__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Ticker_Symbol__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Year_Founded__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.ALIAS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>Add_to_Opp</fullName>
+        <availability>online</availability>
+        <description>Adds the competitor to an existing Opportunity.  Used to create competitor2Opp record</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Add to Opp</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/a01/e?CF00N1a000005Q6IN={!Competitor__c.Name}&amp;CF00N1a000005Q6IN_lkid={!Competitor__c.Id}&amp;retURL={!Competitor__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Add_to_OppList</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Add to Opp</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/a01/e?CF00N1a000005Q6IN={!Competitor__c.Name}&amp;CF00N1a000005Q6IN_lkid={!Competitor__c.Id}&amp;retURL={!Competitor__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Request_Update</fullName>
+        <availability>online</availability>
+        <description>Used to request an update from the owner of the competitor record.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Request Update</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/email/author/emailauthor.jsp?retURL=/{!Competitor__c.Id}&amp;p3_lkid={!Competitor__c.Id}&amp;p24={!Competitor__c.OwnerEmail}&amp;template_id=00X1a000000METG</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Request for new competitor to be added in Salesforce.<div><br></div><div>Requested By: &nbsp;{!User.Name}</div><div>Department: &nbsp;{!User.Department}</div><div>Date: &nbsp;{!Today}</div><div><br></div><div>Please complete the information below to submit your request:</div><div><br></div><div>Competitor Name:</div><div>Competitor Website:</div><div>Additional Information:&nbsp; <i>What type of competitor, what do they sell, etc</i></div>]]></td>
+</tr>
+</table>

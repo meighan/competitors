@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Add a competitor to an existing opportunity.</description>
+    <fieldOverrides>
+        <field>Competitor__c</field>
+        <formula>Competitor__c.Id</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Competitor_Disqualified__c</field>
+        <literalValue>In Running</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Our_Advantages__c</field>
+        <formula>Competitor__c.Our_Advantages__c</formula>
+    </fieldOverrides>
+    <label>Add to Opp</label>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Competitor__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Opportunity__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Competitor_Disqualified__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Our_Advantages__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <targetObject>Competitor2Opportunity__c</targetObject>
+    <targetParentField>Competitor__c</targetParentField>
+    <type>Create</type>
+</QuickAction>

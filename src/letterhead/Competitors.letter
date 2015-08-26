@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#990000</backgroundColor>
+    <bodyColor>#FFFFFF</bodyColor>
+    <bottomLine>
+        <color>#AAAAFF</color>
+        <height>0</height>
+    </bottomLine>
+    <description>Used with competitive analysis emails</description>
+    <footer>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>75</height>
+        <horizontalAlignment>Center</horizontalAlignment>
+        <logo>Competitor_Images/target_icon.png</logo>
+        <verticalAlignment>Middle</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#AAAAFF</color>
+        <height>0</height>
+    </middleLine>
+    <name>Competitors</name>
+    <topLine>
+        <color>#AAAAFF</color>
+        <height>0</height>
+    </topLine>
+</Letterhead>

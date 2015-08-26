@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>O2C_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>O2C_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Competitor__c</fields>
+        <fields>Opportunity__c</fields>
+        <fields>Disqualified__c</fields>
+        <fields>Won__c</fields>
+        <fields>Opportunity_Stage__c</fields>
+        <label>O2C Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Junction object between Opportunity and Competitor Object allowing multiple competitors to be associated with an opportnity</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>ClosedOpp</fullName>
+        <availableFields>
+            <field>Competitor_Weaknesses__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Opportunity_Stage__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Opportunity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>OppClosedPopUp</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Competitor__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Disqualified__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Won__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Our_Advantages__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Our_Weaknesses__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Lost_Details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Additional_Details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>ClosedOpp</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>CompetitorCorpDetails</fullName>
+        <availableFields>
+            <field>Competitor__r.Address__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.CEO__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Customers__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Ticker_Symbol__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Year_Founded__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>VF page</description>
+        <displayedFields>
+            <field>Competitor__r.Positioning__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Competitor__r.Target_Market__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Competitor__r.Percent_of_Marketshare__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Competitor__r.Financial_Health__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Competitor__r.Who_they_are_better_for__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>CompetitorCorpDetails</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>CompetitorSalesTips</fullName>
+        <availableFields>
+            <field>Competitor__r.Competitor_Advantages__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Financial_Health__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Last_Update__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Number_of_Opps_We_Competed_Against_Them__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Percent_of_Marketshare__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Positioning__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Source_of_Customer_Rating__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Target_Market__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Competitor__r.Who_they_are_better_for__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>vf page</description>
+        <displayedFields>
+            <field>Competitor__r.Their_Pricing__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Competitor__r.Customer_Rating__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Competitor__r.Evaluation_Criteria__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Competitor__r.Our_Advantages__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Competitor__r.Selling_Tips__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>CompetitorSalesTips</label>
+    </fieldSets>
+    <fields>
+        <fullName>Additional_Details__c</fullName>
+        <description>Are there any additional details regarding this competitor on this deal? If so please add here. 
+
+This field is reviewed regularly by our competitive analysis team.  The Competitive Analysis report (scheduled weekly to the team) includes this field for review. 
+
+To be used for discovery of new features, functionality, weaknesses, and advantages of competitors.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Are there any additional details regarding this competitor on this deal? If so please add here. 
+
+This field is reviewed regularly by our competitive analysis team.  For general competitor details please submit a competitor update request.</inlineHelpText>
+        <label>Additional Details</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Competitor_Disqualified__c</fullName>
+        <description>Select if you know the Competitor was disqualified</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select if you know the Competitor was disqualified</inlineHelpText>
+        <label>Competitor Disqualified</label>
+        <picklist>
+            <picklistValues>
+                <fullName>In Running</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Out of Running</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Competitor Won</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Competitor_Weaknesses__c</fullName>
+        <description>Weaknesses the competitor has against us in the deal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Weaknesses the competitor has against us in the deal</inlineHelpText>
+        <label>Competitor Weaknesses</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Competitor__c</fullName>
+        <description>The competitor associated with the Opportunity.  Gives access competitor details from the Opportunity, via the related list.  Master Detail Relationship.  Only Existing competitors can be added, there is an other option, however it has no associated data, and is used when the submit new competitor option is selected. No lookup filters;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The competitor associated with the Opportunity.  This lets you have access to the competitor details from the Opportunity</inlineHelpText>
+        <label>Competitor</label>
+        <referenceTo>Competitor__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Competitors</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Disqualified__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Select if the competitor is no longer in the running</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select if the competitor is no longer in the running</inlineHelpText>
+        <label>Disqualified</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lost_Details__c</fullName>
+        <description>What gave the competitor the upper hand with this deal?  
+
+The details you include will be used by the marketing team to find solutions to enable your team, be through, clear, don&apos;t hesitate to add background</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What gave the competitor the upper hand with this deal?  
+
+The details you include will be used by the marketing team to find solutions to enable your team, be through, clear, don&apos;t hesitate to add background</inlineHelpText>
+        <label>Lost Details</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Stage__c</fullName>
+        <description>The status of the Opportunity, set via a process when the pop stage is updated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The status of the Opportunity</inlineHelpText>
+        <label>Opportunity Stage</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <description>The opportunity that has the competitor being associated with it.  Master-detail relationship.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The opportunity you are selecting the competitor for</inlineHelpText>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Competitors</relationshipLabel>
+        <relationshipName>Competitors</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Our_Advantages__c</fullName>
+        <description>Details regarding the advantage we have on this deal over this specific competitor. No default value, to be displayed on the competitor object</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Details regarding the advantage we have on this deal over this specific competitor.</inlineHelpText>
+        <label>Our Advantages</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Our_Weaknesses__c</fullName>
+        <description>What weaknesses do we have specifically in this deal?  What do we need to improve on to have the competitive edge?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What weaknesses do we have specifically in this deal? 
+What advantages does the competition have over us?</inlineHelpText>
+        <label>Our Weaknesses</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PowerOfOne__c</fullName>
+        <description>Power of One field, used in reporting, rollups, and formulas.  Count of this field along with the Opportunity Status used to determine win/loss ratios against the count of all junction objects for a competitor with rollup</description>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Power of One field, used in reporting, rollups, and formulas</inlineHelpText>
+        <label>Power of One</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Won__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If the Opportunity is Lost &amp; this competitor won the deal, select this checkbox so that we can determine how often the competitor wins</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If the Opportunity is Lost &amp; this competitor won the deal, select this checkbox so that we can determine how often the competitor wins</inlineHelpText>
+        <label>Won</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Opportunity Competitor</label>
+    <nameField>
+        <displayFormat>{0}</displayFormat>
+        <label>OppCompetitor</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Opportunity Competitor</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Competitor__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Opportunity__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Competitor_Disqualified__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Won__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Our_Advantages__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Additional_Details__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Competitor_Weaknesses__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LAST_UPDATE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Competitor__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Opportunity__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Competitor_Disqualified__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Our_Advantages__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Our_Weaknesses__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Competitor_Weaknesses__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Additional_Details__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATED_DATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LAST_UPDATE</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Competitor__c</searchFilterFields>
+        <searchFilterFields>Opportunity__c</searchFilterFields>
+        <searchFilterFields>Competitor_Disqualified__c</searchFilterFields>
+        <searchFilterFields>Additional_Details__c</searchFilterFields>
+        <searchFilterFields>Competitor_Weaknesses__c</searchFilterFields>
+        <searchFilterFields>Our_Advantages__c</searchFilterFields>
+        <searchFilterFields>Our_Weaknesses__c</searchFilterFields>
+        <searchFilterFields>CREATED_DATE</searchFilterFields>
+        <searchFilterFields>LAST_UPDATE</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>Opp_Must_be_Lost_for_Competitor_Won</fullName>
+        <active>true</active>
+        <description>If the Status of the Competitor is Won, then the Opportunity Stage must be closed lost.  Error appears at the top of the page</description>
+        <errorConditionFormula>AND(
+Won__c = True,
+NOT(ISPICKVAL(Opportunity__r.StageName, &quot;Closed Lost&quot;)))</errorConditionFormula>
+        <errorMessage>Only Lost Opportunities can have a Competitor that won</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Add_to_Opportunity</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Add to Opportunity</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a01/e?CF00N1a000005Q6IN={!Competitor__c.Name}&amp;CF00N1a000005Q6IN_lkid={!Competitor__c.Id}&amp;retURL={!Competitor__c.Id}</url>
+    </webLinks>
+</CustomObject>

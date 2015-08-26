@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>19.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Twitter feed visualforce component used on the Competitor object to shows the twitter search results for the name of the current record.</description>
+    <label>Competitor Twitter Feed</label>
+</ApexPage>
