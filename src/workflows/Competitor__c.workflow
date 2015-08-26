@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <alerts>
         <fullName>Competitor_Information_Out_of_Date</fullName>
+    <alerts>
         <description>Competitor Information Out of Date</description>
         <protected>false</protected>
         <recipients>
@@ -71,37 +71,6 @@
         <protected>false</protected>
     </fieldUpdates>
     <rules>
-        <fullName>Competitor - Last Update</fullName>
-        <actions>
-            <name>Last_Update_Today</name>
-            <type>FieldUpdate</type>
-        </actions>
-        <actions>
-            <name>Quarterly_Competitor_Update</name>
-            <type>Task</type>
-        </actions>
-        <active>false</active>
-        <criteriaItems>
-            <field>Competitor__c.Information_Status__c</field>
-            <operation>equals</operation>
-            <value>Recently Updated</value>
-        </criteriaItems>
-        <description>Updates the &quot;Last Updated&quot; Date when the actual data related to the competitor is changed</description>
-        <triggerType>onCreateOrTriggeringUpdate</triggerType>
-        <workflowTimeTriggers>
-            <actions>
-                <name>Status_Current</name>
-                <type>FieldUpdate</type>
-            </actions>
-            <timeLength>7</timeLength>
-            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
-        </workflowTimeTriggers>
-        <workflowTimeTriggers>
-            <timeLength>30</timeLength>
-            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
-        </workflowTimeTriggers>
-    </rules>
-    <rules>
         <fullName>Competitor - Updated</fullName>
         <actions>
             <name>Last_Update_Today</name>
@@ -160,17 +129,6 @@
             <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
         </workflowTimeTriggers>
     </rules>
-    <tasks>
-        <fullName>Competitor_Update_Required</fullName>
-        <assignedToType>owner</assignedToType>
-        <description>The competitor record is out of date, please update now.</description>
-        <dueDateOffset>0</dueDateOffset>
-        <notifyAssignee>false</notifyAssignee>
-        <priority>High</priority>
-        <protected>false</protected>
-        <status>Not Started</status>
-        <subject>Competitor Update Required</subject>
-    </tasks>
     <tasks>
         <fullName>Quarterly_Competitor_Update</fullName>
         <assignedToType>owner</assignedToType>
