@@ -241,7 +241,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displaynameOverride>Opportunity Type</displaynameOverride>
             <field>Opportunity__c.Type</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
@@ -250,7 +249,7 @@
             <field>Opportunity__c.IsWon</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
-        <masterLabel>Opportunity: General</masterLabel>
+        <masterLabel>General</masterLabel>
     </sections>
     <sections>
         <columns>
@@ -265,7 +264,7 @@
             <field>Opportunity__c.Reason_Lost_Details__c</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
-        <masterLabel>Opportunity: Custom</masterLabel>
+        <masterLabel>Custom</masterLabel>
     </sections>
     <sections>
         <columns>
