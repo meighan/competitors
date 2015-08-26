@@ -58,6 +58,11 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>Opportunity_Stage__c</field>
+            <table>Competitor2Opportunity__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Our_Advantages__c</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
@@ -69,11 +74,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>PowerOfOne__c</field>
-            <table>Competitor2Opportunity__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Competitor_Disqualified__c</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
         <columns>
@@ -137,11 +137,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Opportunity__c.HasOpportunityLineItem</field>
-            <table>Competitor2Opportunity__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Opportunity__c.IsSplit</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
         <columns>
@@ -239,6 +234,12 @@
     <sections>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>I Created</displayNameOverride>
+            <field>Opportunity__c.I_Created__c</field>
+            <table>Competitor2Opportunity__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <displayNameOverride>Reason Lost</displayNameOverride>
             <field>Opportunity__c.Reason_Lost__c</field>
             <table>Competitor2Opportunity__c</table>
@@ -247,6 +248,12 @@
             <checkedByDefault>false</checkedByDefault>
             <displayNameOverride>Reason Lost Details</displayNameOverride>
             <field>Opportunity__c.Reason_Lost_Details__c</field>
+            <table>Competitor2Opportunity__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tracking Number</displayNameOverride>
+            <field>Opportunity__c.Tracking_Number__c</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
         <masterLabel>Opportunity: Custom</masterLabel>
@@ -347,7 +354,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Competitor Status</displayNameOverride>
+            <displayNameOverride>Status</displayNameOverride>
             <field>Competitor__c.Data_Status__c</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
