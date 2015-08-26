@@ -152,11 +152,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Tracking_Number__c</field>
-            <table>Opportunity</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Type</field>
             <table>Opportunity</table>
         </columns>
@@ -253,151 +248,151 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Annual Revenue</displayNameOverride>
+            <displayNameOverride>Annual Revenue</displayNameOverride>
             <field>Account.AnnualRevenue</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Clean Status</displayNameOverride>
+            <displayNameOverride>Clean Status</displayNameOverride>
             <field>Account.CleanStatus</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Created By</displayNameOverride>
+            <displayNameOverride>Created By</displayNameOverride>
             <field>Account.CreatedBy</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Created Date</displayNameOverride>
+            <displayNameOverride>Created Date</displayNameOverride>
             <field>Account.CreatedDate</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: D&amp;B Company</displayNameOverride>
+            <displayNameOverride>D&amp;B Company</displayNameOverride>
             <field>Account.DandbCompany</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Data.com Key</displayNameOverride>
+            <displayNameOverride>Data.com Key</displayNameOverride>
             <field>Account.Jigsaw</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Description</displayNameOverride>
+            <displayNameOverride>Description</displayNameOverride>
             <field>Account.Description</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: D-U-N-S Number</displayNameOverride>
+            <displayNameOverride>D-U-N-S Number</displayNameOverride>
             <field>Account.DunsNumber</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Employees</displayNameOverride>
+            <displayNameOverride>Employees</displayNameOverride>
             <field>Account.NumberOfEmployees</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Industry</displayNameOverride>
+            <displayNameOverride>Industry</displayNameOverride>
             <field>Account.Industry</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Last Activity</displayNameOverride>
+            <displayNameOverride>Last Activity</displayNameOverride>
             <field>Account.LastActivityDate</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Last Modified By</displayNameOverride>
+            <displayNameOverride>Last Modified By</displayNameOverride>
             <field>Account.LastModifiedBy</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Last Modified Date</displayNameOverride>
+            <displayNameOverride>Last Modified Date</displayNameOverride>
             <field>Account.LastModifiedDate</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: NAICS Code</displayNameOverride>
+            <displayNameOverride>NAICS Code</displayNameOverride>
             <field>Account.NaicsCode</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: NAICS Description</displayNameOverride>
+            <displayNameOverride>NAICS Description</displayNameOverride>
             <field>Account.NaicsDesc</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Ownership</displayNameOverride>
+            <displayNameOverride>Ownership</displayNameOverride>
             <field>Account.Ownership</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Parent Account</displayNameOverride>
+            <displayNameOverride>Parent Account</displayNameOverride>
             <field>Account.Parent</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Rating</displayNameOverride>
+            <displayNameOverride>Rating</displayNameOverride>
             <field>Account.Rating</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: SIC Code</displayNameOverride>
+            <displayNameOverride>SIC Code</displayNameOverride>
             <field>Account.Sic</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: SIC Description</displayNameOverride>
+            <displayNameOverride>SIC Description</displayNameOverride>
             <field>Account.SicDesc</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: SLA</displayNameOverride>
+            <displayNameOverride>SLA</displayNameOverride>
             <field>Account.SLA__c</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Ticker Symbol</displayNameOverride>
+            <displayNameOverride>Ticker Symbol</displayNameOverride>
             <field>Account.TickerSymbol</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Tradestyle</displayNameOverride>
+            <displayNameOverride>Tradestyle</displayNameOverride>
             <field>Account.Tradestyle</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Type</displayNameOverride>
+            <displayNameOverride>Type</displayNameOverride>
             <field>Account.Type</field>
             <table>Opportunity</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Account: Year Started</displayNameOverride>
+            <displayNameOverride>Year Started</displayNameOverride>
             <field>Account.YearStarted</field>
             <table>Opportunity</table>
         </columns>

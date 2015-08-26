@@ -290,11 +290,11 @@ CASE(Information_Status__c,
     </fields>
     <fields>
         <fullName>Evaluation_Criteria__c</fullName>
-        <description>This reviews the information that customers should keep in mind when evaluating their product.  
+        <description>This reviews the information that customers should keep in mind when evaluating their product.
 
 Example:  They may have XYZ but they don&apos;t have 24/7 support, they require a 36 month contract, etc</description>
         <externalId>false</externalId>
-        <inlineHelpText>This reviews the information that customers should keep in mind when evaluating their product.  
+        <inlineHelpText>This reviews the information that customers should keep in mind when evaluating their product.
 
 Example:  They may have XYZ but they don&apos;t have 24/7 support, they require a 36 month contract, etc</inlineHelpText>
         <label>Evaluation Criteria</label>
@@ -333,13 +333,13 @@ Example:  They may have XYZ but they don&apos;t have 24/7 support, they require 
     </fields>
     <fields>
         <fullName>Information_Status__c</fullName>
-        <description>The current status of the information about the competitor.  
+        <description>The current status of the information about the competitor.
 Recently Updated:  Updated in the last 7 days
 Current: Updated this quarter
 Update in Progress: Self-explanitory
 Out of Date: 1+ Quarter since last review</description>
         <externalId>false</externalId>
-        <inlineHelpText>The current status of the information about the competitor.  
+        <inlineHelpText>The current status of the information about the competitor.
 
 Recently Updated:  Updated in the last 7 days
 Current: Updated this quarter
@@ -463,7 +463,7 @@ Out of Date: 1+ Quarter since last review</inlineHelpText>
         <fullName>Target_Market__c</fullName>
         <description>Who is buying their product? Enterprise Corps, SMB, Consumers, High end, luxury, affordable, etc</description>
         <externalId>false</externalId>
-        <inlineHelpText>Who is buying their product/the characteristics of their target buyer.  
+        <inlineHelpText>Who is buying their product/the characteristics of their target buyer.
 
 Example terms:  Enterprise Corps, SMB, Consumers, High end, luxury, affordable, etc</inlineHelpText>
         <label>Target Market</label>
@@ -523,16 +523,16 @@ Example terms:  Enterprise Corps, SMB, Consumers, High end, luxury, affordable, 
     </fields>
     <fields>
         <fullName>Type__c</fullName>
-        <description>What are we competition against them in? 
+        <description>What are we competition against them in?
 
-Direct Competitors (same product and category) 
-Indirect Competitors (offer the same stuff different category) 
+Direct Competitors (same product and category)
+Indirect Competitors (offer the same stuff different category)
 Replacement Competitors (different product and category)</description>
         <externalId>false</externalId>
-        <inlineHelpText>What are we competition against them in? 
+        <inlineHelpText>What are we competition against them in?
 
-Direct Competitors (same product and category) 
-Indirect Competitors (offer the same stuff different category) 
+Direct Competitors (same product and category)
+Indirect Competitors (offer the same stuff different category)
 Replacement Competitors (different product and category)</inlineHelpText>
         <label>Type</label>
         <picklist>
@@ -617,9 +617,6 @@ Replacement Competitors (different product and category)</inlineHelpText>
         <filterScope>Mine</filterScope>
         <label>My Competitors</label>
         <language>en_US</language>
-        <sharedTo>
-            <group>Competitive_Analysis_Team</group>
-        </sharedTo>
     </listViews>
     <nameField>
         <label>Competitor Name</label>
