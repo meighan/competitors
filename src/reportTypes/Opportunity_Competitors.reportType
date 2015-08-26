@@ -131,11 +131,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Opportunity__c.IsExcludedFromTerritory2Filter</field>
-            <table>Competitor2Opportunity__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Opportunity__c.ExpectedRevenue</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
@@ -147,11 +142,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Opportunity__c.HasOpportunityLineItem</field>
-            <table>Competitor2Opportunity__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Opportunity__c.IsSplit</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
         <columns>
@@ -232,11 +222,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Opportunity__c.StageName</field>
-            <table>Competitor2Opportunity__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Opportunity__c.Territory2</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
         <columns>
