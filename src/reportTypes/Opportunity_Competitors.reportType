@@ -78,11 +78,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Competitor_Disqualified__c</field>
-            <table>Competitor2Opportunity__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Won__c</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
