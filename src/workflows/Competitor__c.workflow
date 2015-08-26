@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
-        <fullName>Competitor_Information_Out_of_Date</fullName>
     <alerts>
+        <fullName>Competitor_Information_Out_of_Date</fullName>
         <description>Competitor Information Out of Date</description>
         <protected>false</protected>
         <recipients>

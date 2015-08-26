@@ -27,14 +27,6 @@
     <columns>
         <field>FK_$Competitor__c.Source_of_Customer_Rating__c</field>
     </columns>
-    <filter>
-        <criteriaItems>
-            <column>CUST_ID</column>
-            <operator>equals</operator>
-            <value>a011a000002Fl4Q</value>
-        </criteriaItems>
-        <language>en_US</language>
-    </filter>
     <format>Tabular</format>
     <name>Opp Competitor Details</name>
     <params>

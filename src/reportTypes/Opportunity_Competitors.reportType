@@ -13,11 +13,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Competitor__c</field>
-            <table>Competitor2Opportunity__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Competitor_Weaknesses__c</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
@@ -48,17 +43,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Opportunity__c</field>
-            <table>Competitor2Opportunity__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Id</field>
-            <table>Competitor2Opportunity__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Opportunity_Stage__c</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
         <columns>
@@ -219,9 +204,8 @@
             <field>Opportunity__c.StageName</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
-         <columns>
+        <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity Type</displayNameOverride>
             <field>Opportunity__c.Type</field>
             <table>Competitor2Opportunity__c</table>
         </columns>
@@ -232,6 +216,7 @@
         </columns>
         <masterLabel>Opportunity: General</masterLabel>
     </sections>
+    <sections>
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <displayNameOverride>Reason Lost</displayNameOverride>

@@ -23,9 +23,6 @@
     </columns>
     <filter>
         <criteriaItems>
-            <column>Competitor2Opportunity__c$Id</column>
-            <operator>equals</operator>
-            <value>a011a000002Fl4Q</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>

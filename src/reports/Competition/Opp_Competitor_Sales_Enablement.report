@@ -20,18 +20,10 @@
     </columns>
     <filter>
         <criteriaItems>
-            <column>Competitor2Opportunity__c$Id</column>
-            <operator>equals</operator>
-            <value>a011a000002Fl4Q</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
     <format>Matrix</format>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>Competitor2Opportunity__c$Competitor__c</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
     <name>Opp Competitor Sales Enablement</name>
     <params>
         <name>co</name>
