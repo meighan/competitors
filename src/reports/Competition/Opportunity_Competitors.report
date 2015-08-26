@@ -22,6 +22,11 @@
         <field>Competitor2Opportunity__c$Competitor__c.Who_they_are_better_for__c</field>
     </columns>
     <filter>
+        <criteriaItems>
+            <column>Competitor2Opportunity__c$Id</column>
+            <operator>equals</operator>
+            <value>a011a000002Fl4Q</value>
+        </criteriaItems>
         <language>en_US</language>
     </filter>
     <format>Tabular</format>
