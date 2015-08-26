@@ -10,13 +10,13 @@
     <description>Used with competitive analysis emails</description>
     <footer>
         <backgroundColor>#FFFFFF</backgroundColor>
-        <height>100</height>
+        <height>40</height>
         <horizontalAlignment>Left</horizontalAlignment>
         <verticalAlignment>Top</verticalAlignment>
     </footer>
     <header>
         <backgroundColor>#ffffff</backgroundColor>
-        <height>75</height>
+        <height>25</height>
         <horizontalAlignment>Center</horizontalAlignment>
         <logo>Competitor_Images/Competitors_Icon.png</logo>
         <verticalAlignment>Middle</verticalAlignment>
