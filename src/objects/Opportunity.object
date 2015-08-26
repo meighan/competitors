@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>I_Created__c</fullName>
-        <description>True if the current user&apos;s username is the same user that created the Opportunity, else false.  Does not work if the user has a new username or changed user name.</description>
-        <externalId>false</externalId>
-        <formula>IF($User.Username =  CreatedBy.Username, TRUE, FALSE)</formula>
-        <inlineHelpText>True if the current user is the same user that created the Opportunity, otherwise False</inlineHelpText>
-        <label>I Created</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Reason_Lost_Details__c</fullName>
         <description>Used to explain the details around the opportunity being lost, including user roadblocks information that would have helped, and why the deal was lost.  Required when other, competitor, and when closing from late stages</description>
         <externalId>false</externalId>
@@ -61,16 +51,5 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Tracking_Number__c</fullName>
-        <externalId>false</externalId>
-        <label>Tracking Number</label>
-        <length>12</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
 </CustomObject>

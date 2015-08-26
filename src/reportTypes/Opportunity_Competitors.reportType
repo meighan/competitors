@@ -241,6 +241,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <displaynameOverride>Opportunity Type</displaynameOverride>
             <field>Opportunity__c.Type</field>
             <table>Competitor2Opportunity__c</table>
         </columns>

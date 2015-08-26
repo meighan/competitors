@@ -42,7 +42,7 @@
     </types>
     <types>
         <members>Competitor2Opportunity__c-Admin Competitor2Opp Layout</members>
-        <members>Competitor2Opportunity__c-EU Competitor2Opp Layout</members>
+        <members>Competitor2Opportunity__c-End User Competitor2Opp Layout</members>
         <members>Competitor__c-Competitor Layout</members>
         <name>Layout</name>
     </types>
