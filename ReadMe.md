@@ -17,8 +17,4 @@ The update interval for records is set at 90 days basedon the "Last Update" date
 Help text is provided for the Competitor and Opportunity Competitor fields 
 
 
-
-
-
-
-Biohazard icon from <a href="https://icons8.com">Icon pack by Icons8</a>
+<a href="https://icons8.com">Icon pack by Icons8</a>
