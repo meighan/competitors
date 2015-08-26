@@ -1,45 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
-        <field>Competitor2Opportunity__c$Name</field>
+        <field>FK_$Competitor__c.Data_Status__c</field>
     </columns>
     <columns>
-        <field>Competitor2Opportunity__c$Competitor__c.Positioning__c</field>
+        <field>FK_$Competitor__c.Positioning__c</field>
     </columns>
     <columns>
-        <field>Competitor2Opportunity__c$Competitor__c.Percent_of_Marketshare__c</field>
+        <field>FK_$Competitor__c.Target_Market__c</field>
     </columns>
     <columns>
-        <field>Competitor2Opportunity__c$Competitor__c.Customer_Rating__c</field>
+        <field>FK_$Competitor__c.Their_Pricing__c</field>
     </columns>
     <columns>
-        <field>Competitor2Opportunity__c$Competitor__c.Financial_Health__c</field>
+        <field>FK_$Competitor__c.Percent_of_Marketshare__c</field>
     </columns>
     <columns>
-        <field>Competitor2Opportunity__c$Competitor__c.Target_Market__c</field>
+        <field>FK_$Competitor__c.Financial_Health__c</field>
     </columns>
     <columns>
-        <field>Competitor2Opportunity__c$Competitor__c.Who_they_are_better_for__c</field>
+        <field>FK_$Competitor__c.Who_they_are_better_for__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Competitor__c.Customer_Rating__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Competitor__c.Source_of_Customer_Rating__c</field>
     </columns>
     <filter>
         <criteriaItems>
-            <column>Competitor2Opportunity__c$Id</column>
+            <column>CUST_ID</column>
             <operator>equals</operator>
             <value>a011a000002Fl4Q</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
     <format>Tabular</format>
-    <name>Opportunity Competitors</name>
+    <name>Opp Competitor Details</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
     <params>
         <name>co</name>
         <value>1</value>
     </params>
-    <reportType>Opportunity_Competitors__c</reportType>
+    <reportType>OpportunityCustomEntity$Competitor2Opportunity__c@Competitor2Opportunity__c.Competitor__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <timeFrameFilter>
-        <dateColumn>Competitor2Opportunity__c$CreatedDate</dateColumn>
+        <dateColumn>CLOSE_DATE</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>
