@@ -594,6 +594,15 @@ Replacement Competitors (different product and category)</inlineHelpText>
         <language>en_US</language>
     </listViews>
     <listViews>
+        <fullName>Competitive_Analysis_Team_Competitor</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Competitive Analysis Team</label>
+        <queue>Competitive_Analysis_Team</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>My_Competitors</fullName>
         <columns>Data_Status__c</columns>
         <columns>Last_Update__c</columns>

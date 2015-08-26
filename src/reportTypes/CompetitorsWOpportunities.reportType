@@ -138,103 +138,103 @@
     <sections>
         <columns>
             <checkedByDefault>true</checkedByDefault>
-            <displayNameOverride>Opportunity: Amount</displayNameOverride>
+            <displayNameOverride>Amount</displayNameOverride>
             <field>Opportunity__c.Amount</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Closed</displayNameOverride>
+            <displayNameOverride>Closed</displayNameOverride>
             <field>Opportunity__c.IsClosed</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>true</checkedByDefault>
-            <displayNameOverride>Opportunity: Close Date</displayNameOverride>
+            <displayNameOverride>Close Date</displayNameOverride>
             <field>Opportunity__c.CloseDate</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Created By</displayNameOverride>
+            <displayNameOverride>Created By</displayNameOverride>
             <field>Opportunity__c.CreatedBy</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Created Date</displayNameOverride>
+            <displayNameOverride>Created Date</displayNameOverride>
             <field>Opportunity__c.CreatedDate</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Contract</displayNameOverride>
+            <displayNameOverride>Contract</displayNameOverride>
             <field>Opportunity__c.Contract</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Description</displayNameOverride>
+            <displayNameOverride>Description</displayNameOverride>
             <field>Opportunity__c.Description</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Expected Revenue</displayNameOverride>
+            <displayNameOverride>Expected Revenue</displayNameOverride>
             <field>Opportunity__c.ExpectedRevenue</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Forecast Category</displayNameOverride>
+            <displayNameOverride>Forecast Category</displayNameOverride>
             <field>Opportunity__c.ForecastCategoryName</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Has Line Item</displayNameOverride>
+            <displayNameOverride>Has Line Item</displayNameOverride>
             <field>Opportunity__c.HasOpportunityLineItem</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Last Activity</displayNameOverride>
+            <displayNameOverride>Last Activity</displayNameOverride>
             <field>Opportunity__c.LastActivityDate</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Last Modified By</displayNameOverride>
+            <displayNameOverride>Last Modified By</displayNameOverride>
             <field>Opportunity__c.LastModifiedBy</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Last Modified Date</displayNameOverride>
+            <displayNameOverride>Last Modified Date</displayNameOverride>
             <field>Opportunity__c.LastModifiedDate</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Last Stage Change Date</displayNameOverride>
+            <displayNameOverride>Last Stage Change Date</displayNameOverride>
             <field>Opportunity__c.LastStageChangeDate</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Lead Source</displayNameOverride>
+            <displayNameOverride>Lead Source</displayNameOverride>
             <field>Opportunity__c.LeadSource</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Next Step</displayNameOverride>
+            <displayNameOverride>Next Step</displayNameOverride>
             <field>Opportunity__c.NextStep</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Opportunity ID</displayNameOverride>
+            <displayNameOverride>Opportunity ID</displayNameOverride>
             <field>Opportunity__c.Id</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
@@ -252,61 +252,61 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Price Book</displayNameOverride>
+            <displayNameOverride>Price Book</displayNameOverride>
             <field>Opportunity__c.Pricebook2</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Primary Campaign Source</displayNameOverride>
+            <displayNameOverride>Primary Campaign Source</displayNameOverride>
             <field>Opportunity__c.Campaign</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Primary Partner Account</displayNameOverride>
+            <displayNameOverride>Primary Partner Account</displayNameOverride>
             <field>Opportunity__c.PrimaryPartnerAccount</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Private</displayNameOverride>
+            <displayNameOverride>Private</displayNameOverride>
             <field>Opportunity__c.IsPrivate</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Probability (%)</displayNameOverride>
+            <displayNameOverride>Probability (%)</displayNameOverride>
             <field>Opportunity__c.Probability</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Quantity</displayNameOverride>
+            <displayNameOverride>Quantity</displayNameOverride>
             <field>Opportunity__c.TotalOpportunityQuantity</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>true</checkedByDefault>
-            <displayNameOverride>Opportunity: Stage</displayNameOverride>
+            <displayNameOverride>Stage</displayNameOverride>
             <field>Opportunity__c.StageName</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Stage Sort Order</displayNameOverride>
+            <displayNameOverride>Stage Sort Order</displayNameOverride>
             <field>Opportunity__c.StageSortOrder</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>true</checkedByDefault>
-            <displayNameOverride>Opportunity: Type</displayNameOverride>
+            <displayNameOverride>Type</displayNameOverride>
             <field>Opportunity__c.Type</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <displayNameOverride>Opportunity: Won</displayNameOverride>
+            <displayNameOverride>Won</displayNameOverride>
             <field>Opportunity__c.IsWon</field>
             <table>Competitor__c.Competitors__r</table>
         </columns>

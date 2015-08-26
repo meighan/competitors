@@ -256,13 +256,13 @@
     </fieldSets>
     <fields>
         <fullName>Additional_Details__c</fullName>
-        <description>Are there any additional details regarding this competitor on this deal? If so please add here.
+        <description>Are there any additional details regarding this competitor on this deal? If so please add here. 
 
-This field is reviewed regularly by our competitive analysis team.  The Competitive Analysis report (scheduled weekly to the team) includes this field for review.
+This field is reviewed regularly by our competitive analysis team.  The Competitive Analysis report (scheduled weekly to the team) includes this field for review. 
 
 To be used for discovery of new features, functionality, weaknesses, and advantages of competitors.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Are there any additional details regarding this competitor on this deal? If so please add here.
+        <inlineHelpText>Are there any additional details regarding this competitor on this deal? If so please add here. 
 
 This field is reviewed regularly by our competitive analysis team.  For general competitor details please submit a competitor update request.</inlineHelpText>
         <label>Additional Details</label>
@@ -336,11 +336,11 @@ This field is reviewed regularly by our competitive analysis team.  For general 
     </fields>
     <fields>
         <fullName>Lost_Details__c</fullName>
-        <description>What gave the competitor the upper hand with this deal?
+        <description>What gave the competitor the upper hand with this deal?  
 
 The details you include will be used by the marketing team to find solutions to enable your team, be through, clear, don&apos;t hesitate to add background</description>
         <externalId>false</externalId>
-        <inlineHelpText>What gave the competitor the upper hand with this deal?
+        <inlineHelpText>What gave the competitor the upper hand with this deal?  
 
 The details you include will be used by the marketing team to find solutions to enable your team, be through, clear, don&apos;t hesitate to add background</inlineHelpText>
         <label>Lost Details</label>
@@ -394,7 +394,7 @@ The details you include will be used by the marketing team to find solutions to 
         <fullName>Our_Weaknesses__c</fullName>
         <description>What weaknesses do we have specifically in this deal?  What do we need to improve on to have the competitive edge?</description>
         <externalId>false</externalId>
-        <inlineHelpText>What weaknesses do we have specifically in this deal?
+        <inlineHelpText>What weaknesses do we have specifically in this deal? 
 What advantages does the competition have over us?</inlineHelpText>
         <label>Our Weaknesses</label>
         <required>false</required>
