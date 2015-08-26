@@ -93,8 +93,8 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <name>FieldSet</name>
     </types>
     <types>
-        <members>Competitor2Opportunity__c-Admin Competitor2Opp Layout</members>
-        <members>Competitor2Opportunity__c-EU Competitor2Opp Layout</members>
+        <members>Competitor2Opportunity__c-Admin Opp Competitor Layout</members>
+        <members>Competitor2Opportunity__c-End User Opp Competitor Layout</members>
         <members>Competitor__c-Competitor Layout</members>
         <name>Layout</name>
     </types>
