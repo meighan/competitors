@@ -71,37 +71,6 @@
         <protected>false</protected>
     </fieldUpdates>
     <rules>
-        <fullName>Competitor - Last Update</fullName>
-        <actions>
-            <name>Last_Update_Today</name>
-            <type>FieldUpdate</type>
-        </actions>
-        <actions>
-            <name>Quarterly_Competitor_Update</name>
-            <type>Task</type>
-        </actions>
-        <active>false</active>
-        <criteriaItems>
-            <field>Competitor__c.Information_Status__c</field>
-            <operation>equals</operation>
-            <value>Recently Updated</value>
-        </criteriaItems>
-        <description>Updates the &quot;Last Updated&quot; Date when the actual data related to the competitor is changed</description>
-        <triggerType>onCreateOrTriggeringUpdate</triggerType>
-        <workflowTimeTriggers>
-            <actions>
-                <name>Status_Current</name>
-                <type>FieldUpdate</type>
-            </actions>
-            <timeLength>7</timeLength>
-            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
-        </workflowTimeTriggers>
-        <workflowTimeTriggers>
-            <timeLength>30</timeLength>
-            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
-        </workflowTimeTriggers>
-    </rules>
-    <rules>
         <fullName>Competitor - Updated</fullName>
         <actions>
             <name>Last_Update_Today</name>
