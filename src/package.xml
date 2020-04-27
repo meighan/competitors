@@ -11,6 +11,10 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <name>ApexPage</name>
     </types>
     <types>
+        <members>Competitors</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>Competitor2Opportunity__c.O2C_Compact_Layout</members>
         <name>CompactLayout</name>
     </types>

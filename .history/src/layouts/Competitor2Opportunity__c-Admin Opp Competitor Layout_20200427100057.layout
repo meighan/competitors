@@ -107,6 +107,12 @@
         <fields>Name</fields>
         <fields>Our_Advantages__c</fields>
         <relatedLists>
+            <fields>VERSION.TITLE</fields>
+            <fields>VERSION.CREATED_DATE</fields>
+            <fields>VERSION.LAST_UPDATE</fields>
+            <relatedList>ContentDocumentRelatedList</relatedList>
+        </relatedLists>
+        <relatedLists>
             <relatedList>RelatedEntityHistoryList</relatedList>
         </relatedLists>
     </miniLayout>
@@ -136,6 +142,12 @@
             </layoutItem>
         </relatedContentItems>
     </relatedContent>
+    <relatedLists>
+        <fields>VERSION.TITLE</fields>
+        <fields>VERSION.CREATED_DATE</fields>
+        <fields>VERSION.LAST_UPDATE</fields>
+        <relatedList>ContentDocumentRelatedList</relatedList>
+    </relatedLists>
     <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>
     </relatedLists>
